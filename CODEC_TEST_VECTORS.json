@@ -1,0 +1,78 @@
+{
+  "format": "NXSM1-EXPERIMENTAL",
+  "scope": "Local browser test vectors only, not algorithm verification",
+  "samples": [
+    {
+      "name": "empty",
+      "sourceBytes": 0,
+      "encodedBytes": 13,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 0,
+      "bitRuns": 0
+    },
+    {
+      "name": "single",
+      "sourceBytes": 1,
+      "encodedBytes": 15,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 0,
+      "bitRuns": 0
+    },
+    {
+      "name": "short bits",
+      "sourceBytes": 11,
+      "encodedBytes": 17,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 0,
+      "bitRuns": 2
+    },
+    {
+      "name": "long bits",
+      "sourceBytes": 2000,
+      "encodedBytes": 114,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 31,
+      "bitRuns": 2
+    },
+    {
+      "name": "unicode",
+      "sourceBytes": 39,
+      "encodedBytes": 53,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 0,
+      "bitRuns": 0
+    },
+    {
+      "name": "structured",
+      "sourceBytes": 2095,
+      "encodedBytes": 369,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 62,
+      "bitRuns": 0
+    },
+    {
+      "name": "noise",
+      "sourceBytes": 3000,
+      "encodedBytes": 394,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 41,
+      "bitRuns": 0
+    },
+    {
+      "name": "large",
+      "sourceBytes": 28006,
+      "encodedBytes": 1302,
+      "roundtrip": true,
+      "corruptionRejected": true,
+      "pathTokens": 418,
+      "bitRuns": 0
+    }
+  ]
+}
