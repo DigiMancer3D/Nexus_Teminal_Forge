@@ -6,7 +6,7 @@ This is a public alpha. Generated terminals use a cinematic seven-layer design, 
 
 ## Open
 
-Extract the ZIP into a fresh directory, then open `Nexus_Terminal_Forge.html` or `index.html`. There is no build tool or installer. The generated single-file `index.html` contains all CSS and JS. For a local server (recommended for consistent browser networking), from that directory:
+Open `Nexus_Terminal_Forge.html`. There is no build tool or installer. The generated single-file contains all CSS and JS. For a local server (recommended for consistent browser networking), from that directory:
 
 ```bash
 python3 -m http.server 8787
